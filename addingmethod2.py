@@ -1,0 +1,11 @@
+class Dog:
+
+    def __init__(self, name):
+        self.name = name
+
+    def bark(self):
+        print(self.name, "says Woof!")
+
+dog = Dog("Tommy")
+
+dog.bark()
